@@ -14,7 +14,7 @@
     </author>
 
     <gap:plugin name="com.phonegap.plugins.Barcodescanner"/>
-    <gap:plugin name="Camera" value="org.apache.cordova.core.CameraLauncher" />
+    <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
     <gap:plugin name="Media" value="org.apache.cordova.core.AudioHandler" />
     <gap:plugin name="Capture" value="org.apache.cordova.core.Capture" />
 
