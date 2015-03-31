@@ -26,10 +26,22 @@
     </head>
     <body>
         <div class="app">
-            <iframe src="https://premgroup.my.salesforce.com/one/one.app" style="width:100%;height:100%;" frameborder="0"></iframe>
+            <h1>PREM GROUP!</h1>
         </div>
         <script type="text/javascript" src="Cordova.js"></script>
         <script type="text/javascript" src="Barcodescanner.js"></script>
         <script type="text/javascript" src="Camera.js"></script>
+    
+        <script type="text/javascript">
+            document.onload = function()
+            {
+                setTimeout('startRedirect()', 3 * 1000);
+            }
+            
+            function startRedirect() 
+            {
+                window.location = 'https://premgroup.my.salesforce.com/one/one.app';
+            }
+        </script>
     </body>
 </html>
