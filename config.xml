@@ -16,7 +16,6 @@
     <gap:plugin name="com.phonegap.plugins.Barcodescanner" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.core.AudioHandler" />
     <gap:plugin name="org.apache.cordova.core.Capture" />
 
     <feature name="http://api.phonegap.com/1.0/device" />
