@@ -13,10 +13,11 @@
         PREM Development Team
     </author>
 
-    <gap:plugin name="com.phonegap.plugins.Barcodescanner"/>
-    <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
-    <gap:plugin name="Media" value="org.apache.cordova.core.AudioHandler" />
-    <gap:plugin name="Capture" value="org.apache.cordova.core.Capture" />
+    <gap:plugin name="com.phonegap.plugins.Barcodescanner" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.core.AudioHandler" />
+    <gap:plugin name="org.apache.cordova.core.Capture" />
 
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="debug-server" required="true">
